@@ -1,0 +1,7 @@
+Download Link: https://assignmentchef.com/product/solved-csci-4380-homework-2
+<br>
+Database Systems
+
+Functional Dependencies and Data NormalizationThis homework will focus on the concepts of Functional Dependencies and their use in normalizing a rela¬tional schema.It is due on Thursday February 6 at 11:59PM and should be submitted electronically on the class Sub-mitty site.1. Assume the existence of a database schema being developed to track the operations of a Fitness Club (membership, different locations (branches), programs, trainers, etc.). Given the relationGym(id, nickname, branch, lockerNumber, program, trainer, fee), abbreviated G(i, nb, l, p, t, f) and the functional dependencies nbp -+ tf, bl -+ n, pt -+ f, t -+ b, and ib -+ l.(a) (2 points) What are the keys of the relation?(b) (1 point) Why is the FD pt -+ f a violation of BCNF?(c) (9 points) Decompose the relation into sub-relations that are in BCNF using the algorithm pre¬sented in class, using the violating FD above as the starting point for your first decomposition. Make sure you list any FDs that hold for your sub-relations.
+
+(d) (2 points) Which of the original FDs isn’t (aren’t) preserved by your decomposition? How do you know?(e) (6 points) Decompose the original relation into sub-relations in 3NF, using the synthesis algorithm described in class.
